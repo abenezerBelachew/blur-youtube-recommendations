@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube Recommended Section Blur & Unblur",
+    "description": "This extension blurs the recommended section on YouTube and unblurs it when the user hovers over it.",
+    "version": "1.0",
+    "icons": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["script.js"]
+      }
+    ],
+    "permissions": ["*://www.youtube.com/*"]
+  }
