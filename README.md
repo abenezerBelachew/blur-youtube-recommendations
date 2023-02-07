@@ -24,6 +24,9 @@ After installation, simply visit a YouTube video page to see the recommended sec
 
 Contributions are welcome! If you have any suggestions or find any bugs, please create an issue or submit a pull request.
 
+## Screenshot
+![Screenshot of the blurred recommended section](demo.gif)
+
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://opensource.org/licenses/MIT) file for details.
