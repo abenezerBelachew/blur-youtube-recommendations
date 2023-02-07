@@ -1,6 +1,6 @@
 # YouTube Recommended Section Blur & Unblur
 
-This is a simple Chrome extension that blurs the recommended section on YouTube and unblurs it when the user hovers over it.
+This is a simple Chrome extension that blurs the recommended section on YouTube and unblurs it when the user hovers over it. Made it to improve focus and reduce temptation while still having the power to peek at what's being recommended if I need to.
 
 ## Features
 
