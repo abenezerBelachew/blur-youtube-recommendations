@@ -11,6 +11,14 @@ const observer = new MutationObserver(() => {
       recommendedSection.addEventListener("mouseover", () => {
         recommendedSection.style.filter = "none";
       });
+
+     //   If you want to add a timer before it unblurs, uncomment this.
+     //   let timer;
+     //   recommendedSection.addEventListener("mouseover", () => {
+     //     timer = setTimeout(() => {
+     //         recommendedSection.style.filter = "none"
+     //     }, 5000);
+     //   });
   
       // When the mouse leaves the recommended section, re-apply the blur filter
       recommendedSection.addEventListener("mouseout", () => {
